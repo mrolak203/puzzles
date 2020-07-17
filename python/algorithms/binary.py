@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import math
-#this function assumes array is sorted
+#this function assumes the array is sorted
 def binary_search(array, num):
 
 	low = 0
