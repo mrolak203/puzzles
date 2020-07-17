@@ -6,6 +6,7 @@ def bubble_sort(array):
 		#while x is an a valid index and the value of the right of x is less than it, swap the elements
 		while(x > -1 and array[x+1] < array[x]):
 			array[x],array[x+1] = array[x+1],array[x] 
+			x = x - 1
 
 
 #this algorithm runs in O(n^2) time
@@ -15,3 +16,9 @@ print(nums)
 bubble_sort(nums)
 print(nums)
 
+print('\n')
+
+arr = [64, 34, 25, 12, 22, 11, 90] 
+print(arr)
+bubble_sort(arr)
+print(arr)
