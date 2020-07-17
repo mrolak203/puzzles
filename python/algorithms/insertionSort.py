@@ -17,9 +17,16 @@ def insertion_sort(array):
 		array[x + 1] = element 
 
 	
-
+#this algorithm runs in O(n^2) time
 
 nums = [31,0,0,0,0,1,1,1,1,20]
 print(nums)
 insertion_sort(nums)
 print(nums)
+
+print('\n')
+
+arr = [64, 34, 25, 12, 22, 11, 90] 
+print(arr)
+insertion_sort(arr)
+print(arr)

@@ -20,7 +20,7 @@ def selection_sort(array):
 		index = index + 1
 
 
-#this operation runs in O(n^2) time
+#this algorithm runs in O(n^2) time
 
 nums = [31,0,0,0,0,1,1,1,1,2]
 print(nums)
