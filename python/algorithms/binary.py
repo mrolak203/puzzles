@@ -49,7 +49,7 @@ def recursive_bs(array, num, low, high):
 
 #this algorithm runs in O(log n) time
 
-binary_search([1,2,3,4,5], 4)
+binary_search([1,2,3,4,5], 5)
 binary_search([1,2,3,4,5], 1)
 binary_search([1,2,3,4,5], 40)
 binary_search([1,2,3,4,5], -4)
