@@ -6,14 +6,15 @@ def selection_sort(array):
 	index = 0
 	maxn = len(array)
 	
+	#iterate through all indcies 
 	while index < maxn:
-		#print(nums)
-
+		#minnum will be the index of the smallest num in the array 
 		minnum = index
+		#iterate to find the index smallest num
 		for x in range(index+1, maxn):
 			if array[x] < array[minnum]:
 				minnum = x
-
+		#once the smallest element in the unsorted subarray is found, it is swapped to the end of the sorted subarray 
 		array[index],array[minnum] = array[minnum],array[index]
 
 		index = index + 1
